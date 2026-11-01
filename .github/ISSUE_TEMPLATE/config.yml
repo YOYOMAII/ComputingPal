@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Help using ComputingPal
+    url: https://computingpal.com/help
+    about: Find answers about using the platform.
+  - name: Contact ComputingPal
+    url: https://computingpal.com/contact
+    about: Get help with your account or send a private question.

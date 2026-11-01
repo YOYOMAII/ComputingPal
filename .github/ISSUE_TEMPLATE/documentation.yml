@@ -1,0 +1,36 @@
+name: Public information correction
+description: Report an incorrect statement or broken link in this repository.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for ComputingPal's public repository information.
+        For help using the app, visit the [Help Centre](https://computingpal.com/help).
+        Send account questions or anything private through the [Contact page](https://computingpal.com/contact).
+  - type: input
+    id: location
+    attributes:
+      label: Where is the problem?
+      description: Add the repository file, heading, or link that needs a correction.
+      placeholder: README.md — Explore
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs correcting?
+      description: Quote the statement or describe what happens when you follow the link.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should it say or do?
+      description: Describe the expected information or destination. It is fine to say if you are unsure.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Supporting context
+      description: Add relevant public links or other details that would help check the correction.
